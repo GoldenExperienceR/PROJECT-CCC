@@ -1,0 +1,123 @@
+#footer{
+    display:block;
+    height: 350px;
+    background: rgb(0, 0, 0);
+
+    
+    .container{
+        width:100%;
+    
+    }
+
+    .row{
+        width:100%;
+       
+    }
+    
+    .col{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 40px;
+        border-right: 1px solid white;
+        
+
+        &:nth-child(n+2){
+            border-right:0px;
+            width:2em;
+        }
+    }
+    #Slogan{
+    
+           
+        .Logo{
+            margin-top: 10%;
+            width: 100%;
+            aspect-ratio: 1;
+            max-width: 130px;
+            min-width: 90px ;
+
+            
+        }
+
+
+        h1{
+            font-size: 2vw;
+            color: white;
+            font-family: 'Barlow', sans-serif;
+            
+        }
+
+    }
+
+    #newsletter{
+
+        h2{
+            color:white;
+            font-family: "Barlow", sans-serif;
+        }
+
+        .subscription{
+            
+            #subscribeButton{
+                font-family: 'Oswald', sans-serif;
+                box-shadow: 0 2px 5px rgb(94, 101, 105);
+               
+
+                &:hover{
+                    color:blue;
+                }
+            }
+        }
+    }
+
+    #findUs{
+        .col{
+            margin:0px;
+            height: 50px;
+        }
+
+        h4{
+            color: white;
+        }
+
+        .FollowUs{
+
+            .col{
+                border:0px;
+            }
+
+            h1{
+                font-family: 'Oswald', sans-serif;
+                color: white;
+            }
+            
+            .icon{
+                color: white;
+                aspect-ratio: 1;
+                height:70%;
+                cursor: pointer;
+                &:hover{
+                    height: 90%;
+                }
+            }
+
+            .row{
+                align-items: center;
+                }
+            }
+        
+        
+        }
+        .GetInTouch{
+            h1{
+                font-family: 'Oswald', sans-serif;
+                color: white; 
+            }
+        }
+        
+    }
+        
+    

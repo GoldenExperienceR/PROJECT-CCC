@@ -1,0 +1,45 @@
+.carousel{
+    background-color:#ca3433 ;
+    height:300px;
+    width:100%;
+    display:flex;
+        justify-content:center;
+        align-items: center;
+
+    
+
+       
+    .carousel-item{
+         
+      
+    img{
+       
+        display: block; /* Make the image block-level */
+        margin: 0 auto; /* Center the image horizontally */
+        max-height: 300px;
+         
+        aspect-ratio: 0.7;
+        border:solid white 0.5vw;
+    }
+    h3{
+        color: rgba(255, 255, 255, 0.8);
+        -webkit-text-stroke: 0.9px black ;}
+       
+}
+.carousel-control-next-icon{
+
+    background-color: black;
+    border-radius: 18px;
+    opacity: 1;
+}
+
+.carousel-control-prev-icon{
+
+    background-color:black;
+    border-radius: 20px;
+    opacity: 1;
+}
+
+    
+
+}

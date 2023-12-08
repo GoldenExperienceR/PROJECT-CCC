@@ -1,0 +1,115 @@
+.heading{
+    justify-content: center;
+    display:flex;
+    background:   #fedc56;
+    height:300px;
+    justify-content: center;
+    align-items: center;
+   h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px ;
+   }
+}
+
+.body{
+display:flex;
+
+}
+
+.Pagecontent{
+  
+    margin: 0px;
+    max-width: 100%;
+    justify-content:center ;
+    background: #eedc82 ;
+    
+   
+    
+.row{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;;
+    
+    img{
+        max-width: 300px;
+        max-height: 500px ;
+        padding: 0px;
+        border: 3px solid white;
+        transition: ease-in-out 0.5s;
+        &:hover{
+            transition: transform ease-in-out 5s;
+            max-width: 400px;
+            max-height: 600px ;
+            border: 3px solid blue; /* Define the border style and color */
+           transition: border 0.5 ease-in-out;
+            
+        }
+    }
+
+  
+    }
+}
+
+    .modal{
+        .modal-dialog{
+            
+            max-height: 600px;
+            border-radius: 20px;
+
+        .modal-body{
+            padding:0px;
+            .closebutton{
+                position: absolute;
+                width: 10px;
+                right: 20px;
+                z-index: 2;
+                .fa-xmark{
+                    font-size: 2em;
+                    color: rgba(255, 255, 255, 0.7);
+                   
+                }
+
+            }
+        .artist{
+           
+            .image{
+                width:100%;
+                height :150px;
+                position: relative;
+                overflow:hidden;
+            
+                img{
+                    width: 100%;
+                    position:absolute;
+                    top:-100px;
+                    border-radius: 10px;
+                }
+            }
+
+            .info{
+                height: 300px;
+                display:relative;
+                
+                padding:10px;
+                overflow-y: scroll;
+
+                &::-webkit-scrollbar{
+                    width:10px;
+                    height:20px;
+                }
+                &::-webkit-scrollbar-thumb {
+                    background-color: grey;
+                    border-radius: 0;
+                    height: 20px;
+                }
+                
+            }
+            
+        }
+    }
+}        
+}
+

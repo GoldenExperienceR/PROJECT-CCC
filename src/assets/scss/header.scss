@@ -1,0 +1,123 @@
+#header{
+    background: black;
+    padding:40px;
+    position:sticky;
+    z-index: 3;
+}
+
+.Logo{
+    display:flex;
+    align-items: center;
+    justify-content:left; // this applies to all elements withing this container 
+    h1{
+        color: white; 
+        font-family: 'Oswald', sans-serif;; 
+    }
+    img{
+        cursor: pointer;
+        border-color: beige;
+        
+    }
+    
+}
+
+
+.menuButton{
+    display:none;
+   }
+
+.right{
+
+    .menu{
+        height:100%;
+        display:flex;
+        
+        align-items: center;
+        justify-content: right;
+
+      
+        .item{
+            
+            padding:5px;
+            color:whitesmoke;
+            font-family:"Oswald", sans-serif;
+            transition: transform 0.25s ease-in-out;
+            &:hover{
+                transform: scale(1.2);
+                color: rgb(0, 106, 255); /* Change to blue on hover */
+                text-shadow: 0 0 10px rgba(0, 0, 255, 0.5); /* Add blue glow on hover */
+            }
+            
+        }
+        
+    }
+    #menuButton{
+        height:30px;
+        background-color:transparent;
+        display:none; 
+       
+        
+    }
+
+    
+
+}
+    @media(max-width: 770px){
+        
+        #header{
+        
+        .Logo{
+            h1{
+                display: none;
+            }
+        }
+            .right{
+                display: flex;
+                align-items: center;
+                justify-content: end;
+          
+                .menu{
+                    display: none;
+                }
+
+                .menuButton{
+                    display:block;
+                    
+                    .dropdown-toggle{
+                    background-color: black;
+                    border: black;
+                    max-width: 100px;
+
+                    
+                }
+                
+               
+                    
+                    }
+                        .menuBar{
+                            position: relative;
+                            display: block;
+                            color: white;
+                            width:200px;
+                            
+
+                            &:hover{
+                                color: blue;
+                                
+                            }
+                        }
+
+                        
+                    .dropdown-toggle:after {
+                        content: none;
+                      }
+                    
+                    
+                
+            }  
+    }
+}
+
+ 
+
+
